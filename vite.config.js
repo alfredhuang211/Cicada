@@ -4,6 +4,7 @@ import { ViteMinifyPlugin } from 'vite-plugin-minify';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+    base: './',
     plugins: [
         viteSingleFile(),
         ViteMinifyPlugin({
